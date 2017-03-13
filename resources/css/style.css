@@ -1,0 +1,137 @@
+
+
+.header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  z-index: 5;
+  width: 100%;
+  /*position: fixed;*/
+  background: white;
+}
+
+.logo{
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.nav{
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.header nav{
+  display: flex;
+}
+
+nav a{
+  color: black;
+}
+
+.header p{
+  color: MediumAquamarine;
+}
+
+.main{
+  display: flex;
+  position: relative;
+  width: 1200px;
+  border: 1px solid black;
+}
+
+.main div{
+  border: 1px solid black;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.story.pic{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url("../images/img-news-bite.png");
+}
+
+#mother{
+  background-image: url("../images/img-story-main.png");
+  font-size: 40px;
+}
+
+.story.earth{
+  background-image: url("../images/img-story-2.png");
+}
+
+.story.research{
+  background-image: url("../images/img-story-3.png");
+}
+
+.story.cats{
+  background-image: url("../images/img-story-1.png");
+}
+
+.column{
+  margin-right: 30px;
+}
+
+.column.large{
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+
+.column.medium{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.column.small{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+
+
+
+
+/*nav span{
+  display: inline-block;
+}*/
+/*
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.container {
+  width: 150px;
+  border: 1px solid grey;
+  display: inline-flex;
+}
+
+.box {
+  background-color: Dodgerblue;
+  height: 75px;
+  width: 75px;
+  border: 1px solid turquoise;
+}*/
